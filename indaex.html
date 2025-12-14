@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פרסום במרחב הפיזי | הצטרפות לקמפיין</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for visuals -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'lok-primary': '#007AFF',
+                        'lok-dark-gray': '#1D1D1F',
+                        'lok-soft-gray': '#F7F8FA',
+                        'lok-text-light': '#6B7280',
+                    },
+                    fontFamily: {
+                        sans: ['Assistant', 'Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Assistant', sans-serif;
+            background-color: #F7F8FA;
+            color: #1D1D1F;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #007AFF 0%, #00C6FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .img-hover-zoom {
+            transition: transform 0.3s ease;
+        }
+        .img-hover-zoom:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+
+
+    <!-- Hero Section -->
+    <section class="relative pt-12 pb-16 md:pt-16 md:pb-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-lok-dark-gray mb-6 leading-tight">
+                    הפרסום שלך <br>
+                    <span class="gradient-text">יוצא אל המרחב הפיזי</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 leading-relaxed">
+                    הפכו כל נסיעה להזדמנות שיווקית. אנו מחברים בין מותגים לנהגים והופכים רכבים לשלטי חוצות דינמיים, אלגנטיים ואפקטיביים.
+                </p>
+            </div>
+
+            <!-- Process Cards -->
+            <div class="grid md:grid-cols-3 gap-6 md:gap-8 mb-12">
+                <!-- Card 1: The Process -->
+                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-xl shadow-gray-100 hover:shadow-2xl transition-shadow border border-gray-50">
+                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 text-lok-primary">
+                        <i data-lucide="calendar-check" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">תהליך ההצטרפות</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        נהג בוחר את המודעה שלכם ומצטרף לקמפיין. תאריכי ההתחלה גמישים ומותאמים לצרכים שלכם: ההצטרפות מתבצעת ב-1 לחודש או ב-15 לחודש.
+                    </p>
+                </div>
+
+                <!-- Card 2: Visibility & Branding -->
+                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-xl shadow-gray-100 hover:shadow-2xl transition-shadow border border-gray-50">
+                    <div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 text-purple-600">
+                        <i data-lucide="qr-code" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">חדשנות ומיתוג</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        אפשרות להוספת ברקוד המוביל לאתר ייעודי ("פרסומות") ולהעברת מסר מיתוגי חד. אנו דואגים לנראות האלגנטית ולהתאמת המודעה לצבע הרכב.
+                    </p>
+                </div>
+
+                <!-- Card 3: Targeting -->
+                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-xl shadow-gray-100 hover:shadow-2xl transition-shadow border border-gray-50">
+                    <div class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 text-green-600">
+                        <i data-lucide="map-pin" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">קהל היעד שלכם</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        בחרו את סוג החשיפה: רכב שנוסע באופן נקודתי בתוך השכונה והעיר, או רכב "שעושה קילומטרז'" וחושף את המותג ברחבי המדינה.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Gallery Section -->
+    <section class="bg-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-lok-dark-gray mb-2">נראות מנצחת על הכביש</h2>
+                    <p class="text-gray-500">דוגמאות לפריסה על גבי רכבים שונים</p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <span class="inline-flex items-center px-4 py-2 rounded-full bg-lok-soft-gray text-lok-primary text-sm font-semibold">
+                        <i data-lucide="sparkles" class="w-4 h-4 ml-2"></i>
+                        עיצוב נקי ובולט
+                    </span>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Image 4 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[16/10] bg-gray-100">
+                    <img src="01/white_01 copy1.webp" alt="רכב ממותג מלפנים" class="w-full h-full object-cover img-hover-zoom">
+                    <div class="absolute bottom-0 right-0 bg-white/90 backdrop-blur px-6 py-3 rounded-tl-2xl">
+                        <p class="font-bold text-sm"> נראות</p>
+                    </div>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[16/10] bg-gray-100">
+                    <img src="01/white_05 copy.webp" alt="רכב ממותג צד" class="w-full h-full object-cover img-hover-zoom">
+                    <div class="absolute bottom-0 right-0 bg-white/90 backdrop-blur px-6 py-3 rounded-tl-2xl">
+                        <p class="font-bold text-sm">מסר ברור בתנועה</p>
+                    </div>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[16/10] bg-gray-100">
+                    <img src="01/white_09 copy2.webp" alt="רכב ממותג מאחור" class="w-full h-full object-cover img-hover-zoom">
+                    <div class="absolute bottom-0 right-0 bg-white/90 backdrop-blur px-6 py-3 rounded-tl-2xl">
+                        <p class="font-bold text-sm">בולטות בפקקים</p>
+                    </div>
+                </div>
+
+                <!-- Image 1 -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[16/10] bg-gray-100">
+                    <img src="01/white_17 copy2.webp" alt="רכב ממותג זווית אחורית עליונה" class="w-full h-full object-cover img-hover-zoom">
+                    <div class="absolute bottom-0 right-0 bg-white/90 backdrop-blur px-6 py-3 rounded-tl-2xl">
+                        <p class="font-bold text-sm">חשיפה מקסימלית</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Examples Button (Eye Icon) -->
+            <div class="mt-12 text-center">
+                <button class="inline-flex items-center px-8 py-3 rounded-xl border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 hover:border-gray-300 transition-all font-semibold shadow-sm group">
+                    <i data-lucide="eye" class="w-5 h-5 ml-2 group-hover:text-lok-primary transition-colors"></i>
+                    דוגמאות נוספות
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-500 font-medium">© 2025 כל הזכויות שמורות.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
